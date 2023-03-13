@@ -1,0 +1,67 @@
+mat-grid-list{
+    padding: 0;
+}
+
+.tophead{
+    font-size: 50px;
+}
+mat-grid-tile{
+    padding: 0;
+    margin: 0;
+    width: 100%; display: flex; align-items: flex-start;
+}
+
+.tophead{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+
+
+
+.main{
+    display: flex;
+    padding-inline: 20px;
+    margin-bottom: 20px;
+
+}
+
+.first,.second,.third,.forth{
+    width: 25%;
+}
+.second,.third{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.content{
+    display: flex;
+
+}
+.left{
+    width: 40%;
+}
+
+.right{
+    width: 60%;
+    display: flex;
+    margin-left: 20px;
+}
+.rightone{
+ margin-right: 10px;
+ width: 50%;
+}
+.righttwo{
+    width: 50%;
+}
+
+.icons{
+    text-align: center;
+}
+
+.icons i{
+    padding-inline: 10px;
+}

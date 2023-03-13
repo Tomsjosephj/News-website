@@ -1,0 +1,36 @@
+.main{
+    display: flex;
+}
+
+.main .first{
+    width: 70%;
+    height: 500px;
+}
+
+.main .second{
+    width: 30%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.football{
+    display: flex;
+}
+
+.football .second{
+    margin-left: 20px;
+}
+.sports{
+    display: flex;
+    padding-inline: 20px;
+    margin-bottom: 20px;
+
+}
+
+.sports .eins,.zwei,.drei,.vier{
+    width: 25%;
+}
+.sports .zwei,.drei{
+    margin-left: 15px;
+    margin-right: 15px;
+}

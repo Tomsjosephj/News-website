@@ -1,0 +1,28 @@
+<app-header (ontoggles)="ontoggle()"></app-header>
+
+
+
+
+<mat-drawer-container class="example-container">
+  <!--sidebar-->
+    <mat-drawer mode="side" [opened]="isopened"><app-sidebar></app-sidebar></mat-drawer>
+
+    <!--dashboard-->
+
+    <mat-drawer-content>
+      
+      <!--<app-dashboard></app-dashboard>-->
+    
+      <router-outlet></router-outlet>
+    
+    </mat-drawer-content>
+    
+  </mat-drawer-container>
+
+
+
+
+
+
+
+
